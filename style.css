@@ -1,7 +1,15 @@
-header{
-    background: #D8BFD8
-    color: rgb(240, 255, 255);
+.cabeçalho {
+    background-color: #D8BFD8 ;
+    color: #483D8B;
+    display: flex;
+    justify-content: space-around;
+    align-items: padding 24px 0;
 }
-.cabeçalho-imagem{
-    width: 20%
+.cabeçalho-imagem {
+  width: 20%
+}
+.cabeçalho-lista-item{
+    display: inline-block
+    margin:0 16px;
+    font-size: 24px
 }
